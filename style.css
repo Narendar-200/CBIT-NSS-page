@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    background: hsl(2, 93%, 21%);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.college-name {
+    font-size: 22px;
+    font-weight: bold;}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    }
+
+nav a:hover {
+    color: #ffcc00;
+    }
